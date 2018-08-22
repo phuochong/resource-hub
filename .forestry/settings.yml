@@ -25,6 +25,14 @@ sections:
   templates:
   - person
 - type: directory
+  path: _resource
+  label: Resource
+  create: all
+  match: "*"
+  templates:
+  - resource
+  
+- type: directory
   path: _projects
   label: Projects
   create: all
